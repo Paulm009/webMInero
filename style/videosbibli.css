@@ -3,10 +3,13 @@ h1 {
   color: black;
   margin: 20px;
 }
+
 .videos-biblioteca {
   position: relative;
   overflow: hidden;
-  margin: 100px 100px 30px 100px;
+  border-collapse: separate; /*esto separa los bordes*/
+  border-spacing: 40px; /*este le da un espacio de cada borde*/
+  margin: 80px 100px 30px 140px;
 }
 .videos-biblioteca td {
   position: relative;
